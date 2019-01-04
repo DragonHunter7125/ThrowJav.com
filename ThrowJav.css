@@ -1,0 +1,15 @@
+html {
+    background-color: rgba(163, 19, 19, 0.856);
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom right,rgb(243, 243, 127) , rgba(163, 19, 19, 0.856));
+}
+
+a {
+    color:rgba(72, 75, 73, 0.795);
+}
+
+.in {
+    color: black;
+}
