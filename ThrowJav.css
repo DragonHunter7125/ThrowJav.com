@@ -1,9 +1,9 @@
-html {
-    background-color: rgba(163, 19, 19, 0.856);
+body {
     text-align: center;
     list-style-position: inside;
     font-family: 'Courier New', Courier, monospace;
     background-image: linear-gradient(to bottom right,rgb(243, 243, 127) , rgba(163, 19, 19, 0.856));
+    background-size:100;
 }
 
 a {
@@ -12,4 +12,13 @@ a {
 
 .in {
     color: black;
+}
+
+body {
+    Padding: 10px;
+    border: 10px solid ;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 300px;
+    background-image: linear-gradient(to top left,rgb(243, 243, 127) , rgba(163, 19, 19, 0.856));
 }
