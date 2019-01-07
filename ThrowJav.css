@@ -6,7 +6,7 @@ body {
     background-size:100;
 }
 
-a {
+H2 a  {
     color:rgba(209, 47, 47, 0.795);
 }
 
@@ -23,12 +23,21 @@ a {
     border-radius: 20%;
 }
 
-#nav-bar {
+.nav-bar {
     display: inline-block;
     padding: 8px;
     border-color: firebrick;
-}
+    text-anchor: start;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+  }
 
-li #nav-bar{
-    float: left;
-}
+  li .nav-bar{
+      color: white
+  }
+  
+a:hover {
+    background-color: #111;
+  }
+  
