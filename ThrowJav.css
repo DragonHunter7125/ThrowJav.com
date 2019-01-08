@@ -1,13 +1,23 @@
 body {
     text-align: center;
     list-style-position: inside;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(151, 150, 150);
-    background-size:100;
+    font-family: 'Achafita';
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* background-color: rgb(151, 150, 150); */
+    background: url(./Gray-Background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Achafita';
+    src: url(./Achafita.ttf);
 }
 
 H2 a  {
-    color:rgba(209, 47, 47, 0.795);
+    color:salmon;
 }
 
 .in {
@@ -24,6 +34,7 @@ H2 a  {
 }
 
 .nav-bar {
+    /* Navigational Bar */
     display: inline-block;
     padding: 8px;
     border-color: firebrick;
@@ -31,6 +42,9 @@ H2 a  {
     text-align: left;
     text-decoration: none;
     color: white;
+    background-color: salmon;
+    position: sticky;
+    top: 0;
   }
 
   a .nav-bar{
@@ -39,5 +53,7 @@ H2 a  {
   
 a:hover {
     background-color: #111;
-  }
+}
+
+
   
