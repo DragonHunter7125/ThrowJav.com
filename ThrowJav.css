@@ -33,8 +33,8 @@ H2 a  {
     color: white;
   }
 
-  li .nav-bar{
-      color: white
+  a .nav-bar{
+      color: white;
   }
   
 a:hover {
