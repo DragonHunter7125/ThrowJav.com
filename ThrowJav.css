@@ -1,7 +1,7 @@
 body {
     text-align: center;
     list-style-position: inside;
-    font-family: 'Achafita';
+    font-family: 'Gala';
     /* font-family: 'Courier New', Courier, monospace; */
     /* background-color: rgb(151, 150, 150); */
     background: url(./Gray-Background.jpg) no-repeat center center fixed;
@@ -12,8 +12,8 @@ body {
 }
 
 @font-face {
-    font-family: 'Achafita';
-    src: url(./Achafita.ttf);
+    font-family: 'Gala';
+    src: url(./galascript.ttf);
 }
 
 H2 a  {
@@ -53,6 +53,10 @@ H2 a  {
   
 a:hover {
     background-color: #111;
+}
+
+.description p{
+    margin:auto;
 }
 
 
