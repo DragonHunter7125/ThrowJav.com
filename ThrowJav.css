@@ -45,6 +45,7 @@ H2 a  {
     background-color: salmon;
     position: sticky;
     top: 0;
+    border-radius: 4px;
   }
 
   a .nav-bar{
@@ -56,7 +57,9 @@ a:hover {
 }
 
 .description p{
-    margin:auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 30% block solid transparent;
 }
 
 
