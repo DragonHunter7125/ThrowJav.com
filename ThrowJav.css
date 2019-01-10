@@ -46,6 +46,7 @@ H2 a  {
     position: sticky;
     top: 0;
     border-radius: 4px;
+    z-index:1;
   }
 
   a .nav-bar{
@@ -62,5 +63,8 @@ a:hover {
     border: 30% block solid transparent;
 }
 
-
+#JavVid{
+    z-index:-1;
+    position: 
+}
   
