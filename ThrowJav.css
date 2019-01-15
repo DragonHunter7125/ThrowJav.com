@@ -16,8 +16,8 @@ body {
     src: url(./galascript.ttf);
 }
 
-H2 a  {
-    color:salmon;
+ a  {
+    color:firebrick;
 }
 
 .in {
@@ -42,7 +42,7 @@ H2 a  {
     text-align: left;
     text-decoration: none;
     color: white;
-    background-color: salmon;
+    background-color: firebrick;
     position: sticky;
     top: 0;
     border-radius: 4px;
